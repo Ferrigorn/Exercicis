@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Compañía telefónica" />
+    <meta
+      name="keywords"
+      content="teléfono, móvil, celular, internet, streaming"
+    />
+    <title>InTouch</title>
+    <link rel="stylesheet" href="Home.css" />
+  </head>
+  <body>
+    <!--Header o Encabezado-->
+    <header>
+      <a href="Home.html"
+        ><img class="logo" src="Recursos/logo.png" alt="logo empresa"
+      /></a>
+      <h1 class="titulo">InTouch</h1>
+      <!--Barra de Navegación-->
+      <nav class="menuNav">
+        <ul>
+          <li>
+            <a href="Servicios.html">Servicios</a>
+            <ul>
+              <li>
+                <a href="Internet.html">Internet</a>
+              </li>
+              <li><a href="Error.html">Streaming</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="Productos.html">Productos</a>
+            <ul>
+              <li>
+                <a href="Smartphone.html">Smartphones</a>
+              </li>
+              <li><a href="Tablet.html">Tablets</a></li>
+              <li>
+                <a href="Accesorios.html">Accesorios</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="Quienes_Somos.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Contenido de la página-->
+    <main>
+      <div class="container_servicios">
+        <h2 class="titulo_servicios">Nuestros Servicios</h2>
+        <img
+          id="servicioInternet"
+          src="Recursos/Servicios.png"
+          alt="Servicios internet"
+        />
+        <p class="parrafoServicios">
+          En nuestra compañía ofrecemos Internet, Fibra óptica, Plataforma de
+          Streaming, etc.
+        </p>
+        <p class="parrafoServicios">Si quieres saber más, clica en el botón</p>
+        <button id="btn_masinformacion">
+          <a href="Servicios.html">Más información</a>
+        </button>
+      </div>
+      <div class="container_productos">
+        <h2 class="titulo_productos">Nuestros Productos</h2>
+        <section>
+          <div class="container_producto">
+            <a href="Smartphone.html"
+              ><img src="Recursos/Xiaomi Redmi Note 12.jpg" alt="Redmi 12"
+            /></a>
+            <ul class="lista_producto">
+              <li>Xiaomi Redme Note 12</li>
+              <li>189.00€</li>
+            </ul>
+          </div>
+          <div class="container_producto">
+            <a href="Smartphone.html"
+              ><img src="Recursos/Cat s62 Pro.png" alt="Cat s62"
+            /></a>
+            <ul class="lista_producto">
+              <li>Cat s62 Pro</li>
+              <li>259.00€</li>
+            </ul>
+          </div>
+          <div class="container_producto">
+            <a href="Tablet.html">
+              <img
+                src="Recursos/Tablet/Galaxy Tab S9.jpg"
+                alt="Galaxy Tableta S9"
+            /></a>
+            <ul class="lista_producto">
+              <li>Galaxy Tab S9</li>
+              <li>600.00€</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="container_tabla">
+        <h2>Compara nuestros precios</h2>
+        <table>
+          <tr>
+            <th>Compañía</th>
+            <th>Servicio</th>
+            <th>Precio</th>
+            <th class="celda_oferta">Ofertas</th>
+          </tr>
+          <tr>
+            <td>InTouch</td>
+            <td>Internet 5G</td>
+            <td>19.99€</td>
+            <td class="celda_oferta">15€</td>
+          </tr>
+          <tr>
+            <td>Vodafoun</td>
+            <td>Internet 5G</td>
+            <td>39.90€</td>
+            <td class="celda_oferta">---</td>
+          </tr>
+          <tr>
+            <td>MobliStar</td>
+            <td>Internet 5G</td>
+            <td>45€</td>
+            <td class="celda_oferta">35.99€</td>
+          </tr>
+        </table>
+      </div>
+      <div class="container_contacto">
+        <h2>Contacta con nosotros</h2>
+        <a href="Quienes_Somos.html"
+          ><img src="Recursos/contactenos.png" alt="foto contactenos"
+        /></a>
+      </div>
+    </main>
+    <!--Pie de Página-->
+    <footer>
+      <div class="listafooter">
+        <ul>
+          <h3 class="titulofooter">Empresa</h3>
+          <li>
+            <a href="Quienes_Somos.html">¿Quienes somos?</a>
+          </li>
+          <li>Política de privacidad</li>
+          <li>Cookies</li>
+        </ul>
+      </div>
+      <div class="listafooter">
+        <ul>
+          <h3 class="titulofooter">
+            <a href="Quienes_Somos.html">Contacto</a>
+          </h3>
+          <li>
+            <a href="Quienes_Somos.html">📧 Email</a>
+          </li>
+          <li>
+            <a href="Quienes_Somos.html">📞 Teléfono</a>
+          </li>
+          <li>
+            <img class="icono" src="Recursos/instagram.png" />
+            <a href="Quienes_Somos.html">Instagram</a>
+          </li>
+          <li>
+            <img class="icono" src="Recursos/linkedin.png" />
+            <a href="Quienes_Somos.html">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copyright">
+        <h2>
+          <a href="Landing_Page.html"> ©️2024 InTouch </a>
+          <h3>Todos los derechos reservados</h3>
+        </h2>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: #4b0000;
+  color: white;
+}
+/*Elementos header*/
+h1,
+h2,
+h3,
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: oblique;
+  color: #120f28;
+}
+header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #023047a2;
+  border-bottom: thin solid #023047;
+}
+.logo {
+  width: 15vw;
+  height: 18vh;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: oblique;
+  color: #120f28;
+}
+.menuNav {
+  height: 20vh;
+  display: flex;
+  padding-right: 5px;
+  justify-content: center;
+}
+.menuNav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1px;
+  max-height: 18vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* items del menu */
+
+.menuNav ul li {
+  background-color: #023047a2;
+}
+
+/* enlaces del menuNav */
+
+.menuNav ul a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* items del menuNav */
+
+.menuNav ul li {
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* efecto al pasar el ratón por los items del menuNav */
+
+.menuNav ul li:hover {
+  background: #5b78a7;
+}
+/* menu desplegable */
+
+.menuNav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #eee;
+  padding: 0;
+}
+
+/* items del menu desplegable */
+
+.menuNav ul ul li {
+  float: none;
+  width: 150px;
+}
+
+/* enlaces de los items del menu desplegable */
+
+.menuNav ul ul a {
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+.menuNav ul li:hover > ul {
+  display: block;
+}
+
+/*Elementos main*/
+main {
+  width: 100%;
+  /* height: 62vh; */
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  background-color: #749eb381;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+/*container1*/
+
+.container_servicios {
+  width: 50%;
+  height: 50%;
+  background-color: #0230473f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5%;
+  box-shadow: 5px 5px 3px black;
+  margin-top: 10px;
+}
+.titulo_servicios {
+  width: max-content;
+}
+#servicioInternet {
+  width: 200px;
+  height: auto;
+  border-radius: 5%;
+  background-color: rgba(250, 235, 215, 0.479);
+}
+#btn_masinformacion {
+  background-color: #0f007d96;
+  color: #fff;
+  border-radius: 10%;
+  border: none;
+  width: 120px;
+  height: 25px;
+}
+
+/*container2*/
+
+.container_productos {
+  width: 50%;
+  height: 50%;
+  background-color: #0230473f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5%;
+  align-self: flex-end;
+  box-shadow: 5px 5px 3px black;
+}
+img {
+  width: 100px;
+  height: auto;
+}
+.titulo_productos {
+  width: max-content;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+.container_producto {
+  background-color: #b0b5b773;
+}
+.lista_producto {
+  list-style: none;
+}
+
+/*container3*/
+
+.container_tabla {
+  width: 50%;
+  height: 50%;
+  background-color: #0230473f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5%;
+  box-shadow: 5px 5px 3px black;
+}
+table {
+  border: 1px solid;
+  border-color: #023047a2;
+  margin: 0 auto;
+  width: 48vw;
+}
+th {
+  border: 1px solid;
+  border-color: #023047a2;
+  background-color: #120f28;
+  color: #fff;
+}
+td {
+  border: 1px solid;
+  border-color: #023047a2;
+  text-align: center;
+}
+
+.celda_oferta {
+  background-color: rgba(255, 0, 0, 0.458);
+}
+
+/*container 4*/
+.container_contacto {
+  width: 50%;
+  height: 50%;
+  background-color: #0230473f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-self: flex-end;
+  border-radius: 5%;
+  box-shadow: 5px 5px 3px black;
+}
+/*Elementos footer*/
+footer {
+  width: 100%;
+  height: 18vh;
+  background-color: #023047a2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* position: fixed; */
+}
+.listafooter {
+  height: 14vh;
+}
+.icono {
+  width: 20px;
+  height: 20px;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  flex-direction: column;
+  justify-content: flex-end;
+}
